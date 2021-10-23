@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-align: center;
+    font-size: x-large;
+}
+
+.headingOne {
+    color: green;
+    margin-bottom: 3px;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.output {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:700px) {
+    #input {
+        padding: 4rem 6rem 4rem 6rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: x-large;
+        border-radius: 1em;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    #output {
+        padding: 4rem 6rem 4rem 6rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        font-size: x-large;
+        border-radius: 1em;
+    }
+    .dev {
+        margin-top: 20px;
+        padding: 0rem 10rem 0rem 10rem;
+    }
+    .btn {
+        border-radius: 1em;
+        background-color: rgb(129, 207, 129);
+        color: white;
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:699px) {
+    #input {
+        padding: 50px;
+        margin: 0rem 1rem 0rem 1rem;
+        font-size: x-large;
+        border-radius: 1em;
+    }
+    #output {
+        padding: 50px;
+        margin: 0rem 1rem 0rem 1rem;
+        font-size: x-large;
+        border-radius: 1em;
+    }
+    .dev {
+        margin-top: 20px;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    .btn {
+        margin-top: 20px;
+        background-color: rgb(129, 207, 129);
+        color: white;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 1em;
+    }
+}
