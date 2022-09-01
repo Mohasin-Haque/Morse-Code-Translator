@@ -44,11 +44,14 @@ body {
     }
     .btn {
         border-radius: 1em;
-        background-color: rgb(129, 207, 129);
+        background-color: rgb(250, 0, 0);
         color: white;
         padding: 1rem 2rem 1rem 2rem;
         font-size: 20px;
+    }.btn:hover{
+        background-color: green;
     }
+
 }
 
 @media screen and (max-width:699px) {
